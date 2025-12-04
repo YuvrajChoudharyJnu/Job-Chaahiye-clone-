@@ -1,0 +1,114 @@
+# -----------------------
+# NODE / JS PROJECTS
+# -----------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Lock files (optional – keep only the one you use)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# -----------------------
+# ENV / SECRETS
+# -----------------------
+.env
+.env.*
+!.env.example
+
+# -----------------------
+# BUILD / DIST FILES
+# -----------------------
+dist/
+build/
+out/
+.next/
+.vercel/
+.temp/
+.cache/
+.cache-loader/
+coverage/
+storybook-static/
+
+# Vite / React / Next.js
+*.local
+*.DS_Store
+
+# -----------------------
+# LOGS
+# -----------------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# PM2 Logs
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# -----------------------
+# SYSTEM FILES
+# -----------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# -----------------------
+# BACKEND SPECIFIC
+# -----------------------
+# Compiled source
+lib/
+bin/
+
+# TypeScript
+*.tsbuildinfo
+
+# prisma / db
+prisma/migrations/
+*.db
+*.sqlite
+
+# uploads
+uploads/
+public/uploads/
+backend/uploads/
+
+# -----------------------
+# FRONTEND SPECIFIC
+# -----------------------
+# Local dev
+frontend/.next/
+frontend/.expo/
+frontend/.nuxt/
+frontend/.vercel/
+
+# Storybook
+frontend/storybook-static/
+
+# Build output
+frontend/dist/
+frontend/build/
+frontend/.cache/
+
+# -----------------------
+# IDE & DEV TOOLS
+# -----------------------
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# -----------------------
+# TEMP FOLDERS
+# -----------------------
+tmp/
+temp/
+*.tmp
