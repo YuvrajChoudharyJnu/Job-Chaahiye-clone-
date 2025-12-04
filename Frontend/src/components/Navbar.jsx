@@ -36,6 +36,7 @@ const Navbar = () => {
     }, []);
 
     return (
+        
         <header className="main-header header-style-three bg-white sticky top-0 z-50 border-b border-gray-100">
             <div className="main-box md:gap-x-24 !pl-0 md:!pl-11 flex justify-between items-center h-20">
                 <div className="nav-outer flex items-center">
